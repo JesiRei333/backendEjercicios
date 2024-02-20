@@ -12,4 +12,5 @@ const contadorDeVocales = palabra1 => {
     return sumaVocales;
   };
   console.log(contadorDeVocales("hola! ¿cómo estás?"))
+  console.log(contadorDeVocales(process.argv[2]))
   

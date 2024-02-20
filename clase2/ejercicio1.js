@@ -6,5 +6,5 @@ const sumarPares = numero => {
 return contadorFinal
 }
 
-console.log(sumarPares (10))
-console.log(sumarPares(process.argv[2]))
+console.log(sumarPares (10)) //impresión normal
+console.log(sumarPares(process.argv[2])) //se add dinamico
