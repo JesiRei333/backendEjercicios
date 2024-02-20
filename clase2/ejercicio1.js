@@ -7,3 +7,4 @@ return contadorFinal
 }
 
 console.log(sumarPares (10))
+console.log(sumarPares(process.argv[2]))
